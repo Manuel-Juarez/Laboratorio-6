@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="estilospag1.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/Ejercicio3,1/index.html">index</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="pagina1.html">Pagina 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pagina2.html">Pagina 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Pagina3.html">Pagina 3</a>
+              </li>
+    
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+        <div class="text-center">
+          <h4><strong>Imagenes del Mundo</strong></h4>
+    
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Imagenes/Japon.jpg" class="d-block w-50 image-fluid rounded mx-auto d-block " id="imag" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="carrusel">Japon</h5>
+                  <p id="carrusel">  <strong>Visita Japon con tu familia</strong> </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/brazil-640x514.jpg" class="d-block w-50 image-fluid rounded mx-auto d-block" id="imag" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="carrusel">Brazil</h5>
+                  <p id="carrusel"><strong>Visita Brazil con tu familia</strong></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Imagenes/fundidora.jpg" class="d-block w-50 image-fluid rounded mx-auto d-block " id="imag" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 id="carrusel">Suiza</h5>
+                  <p id="carrusel"><strong>Visita Suiza con tu familia</strong></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+        
+            </button>
+          </div>
+          <br><br>
+          <h2 id="centro">Informacion sobre estos lugares</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <strong id="Acordeon">Japon</strong> 
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong id="Acordeonfuera">Japón, es un país insular de Asia Oriental ubicado en el noroeste del océano Pacífico. Limita con el mar de Japón al oeste y se extiende desde el mar de Ojotsk en el norte hasta el mar de China Oriental y Taiwán en el sur. Es parte del anillo de Fuego del Pacífico, Japón comprende un archipiélago de 6852 islas que cubren 377 975 kilómetros cuadrados.</strong> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <strong id="Acordeon">Brazil</strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong id="Acordeonfuera">es un país soberano de América del Sur que comprende la mitad oriental del continente y algunos grupos de pequeñas islas en el océano Atlántico. Es el país más grande de América Latina. Con una superficie estimada en más de 8,5 millones de km², es el quinto país más grande del mundo en área total.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <strong id="Acordeon">Suiza</strong>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong id="Acordeonfuera">es un país sin salida al mar ubicado en Europa central y que cuenta con una población de 8 500 000 habitantes (2018).10​ Suiza es un Estado federal con 26 estados, llamados cantones y cuenta con cuatro idiomas oficiales: alemán, francés, italiano y romanche.</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          
+    </div>
+</div>
+
+    <script src="/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
